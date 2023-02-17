@@ -263,6 +263,19 @@ Edit the text to match who can attend the workshop. For instance:
 </p>
 {% endcomment %}
 
+<h2>Registration</h2>
+<p>
+  Space is limited to 24 participants for this workshop,
+  and registration is required.
+  The workshop fee is $5 for coffee/snacks only or $15 for lunch as well.
+  Please plan on attending the entire time.
+
+</p>
+<p><strong>
+  <a href="https://reg.conferences.dce.ufl.edu/SSP/1400088292">Register for this workshop!</a>
+  <!-- Registration is now full -->
+</strong></p>
+
 <hr/>
 
 {% comment%}
