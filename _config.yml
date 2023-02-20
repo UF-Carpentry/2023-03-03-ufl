@@ -63,10 +63,10 @@ title: "Version Control with Git"
 incubator_lesson_site: "https://carpentries-incubator.github.io/git-novice-branch-pr/"
 #
 # For an Incubator workshop, uncomment the line below and add the URL of your pre-workshop survey
-incubator_pre_survey: "put the URL of your pre-workshop survey here"
+incubator_pre_survey: "https://docs.google.com/forms/d/e/1FAIpQLSdwt6D0wLr--Nx8yuNjJJ4emhn8TrTz5m19kS3rIUNpfo4ZJA/viewform"
 #
 # For an Incubator workshop, uncomment the line below and add the URL of your post-workshop survey
-incubator_post_survey: "put the URL of your post-workshop survey here"
+incubator_post_survey: "https://docs.google.com/forms/d/e/1FAIpQLScmh8Z3av7sP2qNpksUzF5a6BwAprVz-4yzqAEB5y4gQsRFUw/viewform"
 #
 #------------------------------------------------------------
 
