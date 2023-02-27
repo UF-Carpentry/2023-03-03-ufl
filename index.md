@@ -1,3 +1,4 @@
+
 ---
 layout: workshop      # DON'T CHANGE THIS.
 # More detailed instructions (including how to fill these variables for an
@@ -367,16 +368,93 @@ of code below the Schedule `<h2>` header below with
 
 <h2 id="schedule">Schedule</h2>
 
-{% if site.carpentry == "swc" %}
-{% include swc/schedule.html %}
-{% elsif site.carpentry == "dc" %}
-{% include dc/schedule.html %}
-{% elsif site.carpentry == "lc" %}
-{% include lc/schedule.html %}
-{% elsif site.carpentry == "incubator" %}
-This workshop is teaching a lesson in [The Carpentries Incubator](https://carpentries-incubator.org/).
-Please check [the lesson homepage]({{ site.incubator_lesson_site }}) for a list of lesson sections and estimated timings.
-{% endif %}
+<div class="row">        <!-- first two days -->
+  <div class="col-md-6"> <!-- left column -->
+    <h3>Day 1</h3>
+    <table class="table table-striped">
+      <tr>               <!-- row 1   -->
+        <td>Before starting</td>
+        <td><a href="{{ site.pre_survey }}{{ site.github.project_title }}" target="_blank">Pre-workshop survey</a></td>
+      </tr>
+      <tr>
+        <td></td>
+        <td><a href="https://carpentries-incubator.github.io/git-novice-branch-pr/setup/">Setup</a></td>
+      </tr>
+      <tr>
+        <td>Morning</td>
+        <td><a href="https://carpentries-incubator.github.io/git-novice-branch-pr/01-basics/">Automated Version Control</a></td>
+      </tr>
+      <tr>
+        <td></td>
+        <td><a href="https://carpentries-incubator.github.io/git-novice-branch-pr/02-setup/"></a>Setting Up Git</td>
+      </tr>
+      <tr>
+        <td></td>
+        <td><a href="https://carpentries-incubator.github.io/git-novice-branch-pr/03-create/"></a>Creating a Repository</td>
+      </tr>
+      <tr>
+        <td></td>
+        <td><a href="https://carpentries-incubator.github.io/git-novice-branch-pr/04-changes/"></a>Tracking Changes</td>
+      </tr>
+      <tr>
+        <td></td>
+        <td><a href="https://carpentries-incubator.github.io/git-novice-branch-pr/05-history/"></a>Exploring History</td>
+      </tr>
+      <tr>
+        <td></td>
+        <td><a href="https://carpentries-incubator.github.io/git-novice-branch-pr/06-ignore/"></a>Ignoring Things</td>
+      </tr>
+      <tr>
+        <td></td>
+        <td>Coffee Break</td>
+      </tr>
+      <tr>
+        <td></td>
+        <td><a href="https://carpentries-incubator.github.io/git-novice-branch-pr/07-branches/"></a>Branches</td>
+      </tr>
+      <tr>
+        <td></td>
+        <td><a href="https://carpentries-incubator.github.io/git-novice-branch-pr/08-conflict/"></a>Conflicts</td>
+      </tr>
+      <tr>
+        <td></td>
+        <td><a href="https://carpentries-incubator.github.io/git-novice-branch-pr/09-github/"></a>Remotes in GitHub</td>
+      </tr>
+      <tr>
+        <td></td>
+        <td><a href="https://carpentries-incubator.github.io/git-novice-branch-pr/10-pull-requests/"></a>Pull Requests</td>
+      </tr>
+      <tr>
+        <td></td>
+        <td>Lunch Break</td>
+      </tr>
+      <tr>
+        <td>Afternoon</td>
+        <td><a href="https://carpentries-incubator.github.io/git-novice-branch-pr/11-open/"></a>Open Science</td>
+      </tr>
+      <tr>
+        <td></td>
+        <td><a href="https://carpentries-incubator.github.io/git-novice-branch-pr/12-licensing/"></a>Licensing</td>
+      </tr>
+      <tr>
+        <td></td>
+        <td><a href="https://carpentries-incubator.github.io/git-novice-branch-pr/13-citation/"></a>Citation</td>
+      </tr>
+      <tr>
+        <td></td>
+        <td><a href="https://carpentries-incubator.github.io/git-novice-branch-pr/14-hosting/"></a>Hosting</td>
+      </tr>
+      <tr>
+        <td></td>
+        <td><a href="https://carpentries-incubator.github.io/git-novice-branch-pr/15-supplemental-rstudio/"></a>Using Git from RStudio</td>
+      </tr>
+      <tr>               <!-- row 3   -->
+        <td>End</td>
+        <td><a href="{{ site.post_survey }}{{ site.github.project_title }}" target="_blank">Post-workshop survey</a></td>
+      </tr>
+    </table>
+  </div>
+</div>
 
 {% comment %}
 Edit/replace the text above if you want to include a schedule table.
