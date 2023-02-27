@@ -369,8 +369,7 @@ of code below the Schedule `<h2>` header below with
 <h2 id="schedule">Schedule</h2>
 
 <div class="row">        <!-- first two days -->
-  <div class="col-md-6"> <!-- left column -->
-    <h3>Day 1</h3>
+  <div class="col-md-12"> <!-- left column -->
     <table class="table table-striped">
       <tr>               <!-- row 1   -->
         <td>Before starting</td>
