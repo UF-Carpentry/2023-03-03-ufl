@@ -9,10 +9,10 @@ country: "us"      # lowercase two-letter ISO country code such as "fr" (see htt
 language: "en"     # lowercase two-letter ISO language code such as "fr" (see https://en.wikipedia.org/wiki/List_of_ISO_639-1_codes) for the workshop
 latitude: "29.648144484859817"        # decimal latitude of workshop venue (use https://www.latlong.net/)
 longitude: "-82.3440589616248"       # decimal longitude of the workshop venue (use https://www.latlong.net)
-humandate: "2023 March 03"    # human-readable dates for the workshop (e.g., "Feb 17-18, 2020")
+humandate: "2023 Spring"    # human-readable dates for the workshop (e.g., "Feb 17-18, 2020")
 humantime: "9:00 - 15:00 ET"    # human-readable times for the workshop e.g., "9:00 am - 4:30 pm CEST (7:00 am - 2:30 pm UTC)"
-startdate: 2023-03-03      # machine-readable start date for the workshop in YYYY-MM-DD format like 2015-01-01
-enddate: 2023-03-03        # machine-readable end date for the workshop in YYYY-MM-DD format like 2015-01-02
+startdate: 2023-XX-XX      # machine-readable start date for the workshop in YYYY-MM-DD format like 2015-01-01
+enddate: 2023-XX-XX        # machine-readable end date for the workshop in YYYY-MM-DD format like 2015-01-02
 instructor: ["Cory Brunson", "Dellena Bloom"] # boxed, comma-separated list of instructors' names as strings, like ["Kay McNulty", "Betty Jennings", "Betty Snyder"]
 helper: ["Vaasuki Marupaka"]     # boxed, comma-separated list of helpers' names, like ["Marlyn Wescoff", "Fran Bilas", "Ruth Lichterman"]
 email: ["cornelioid@gmail.com"]    # boxed, comma-separated list of contact email addresses for the host, lead instructor, or whoever else is handling questions, like ["marlyn.wescoff@example.org", "fran.bilas@example.org", "ruth.lichterman@example.org"]
@@ -272,8 +272,9 @@ Edit the text to match who can attend the workshop. For instance:
 
 </p>
 <p><strong>
-  <a href="https://reg.conferences.dce.ufl.edu/SSP/1400088292">Register for this workshop!</a>
+  <!-- <a href="https://reg.conferences.dce.ufl.edu/SSP/1400088292">Register for this workshop!</a> -->
   <!-- Registration is now full -->
+  <b>This workshop has been postponed. Registration will reopen when the new date is set.</b>
 </strong></p>
 
 <hr/>
