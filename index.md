@@ -272,9 +272,9 @@ Edit the text to match who can attend the workshop. For instance:
 
 </p>
 <p><strong>
-  <!-- <a href="https://reg.conferences.dce.ufl.edu/SSP/1400088292">Register for this workshop!</a> -->
+  <a href="https://reg.conferences.dce.ufl.edu/SSP/1400088292">Register for this workshop!</a>
   <!-- Registration is now full -->
-  <b>This workshop has been postponed. Registration will reopen when the new date is set.</b>
+  <!-- <b>This workshop has been postponed. Registration will reopen when the new date is set.</b> -->
 </strong></p>
 
 <hr/>
